@@ -1,0 +1,177 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Info Meetr</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta http-equiv="X-UA-Compatible" content="IE=9" />
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.js"></script>
+<script type="text/javascript" src="styles/smoothslides.min.js"></script>
+<script src="styles/style.js" type="text/javascript"></script> 
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCHV-H6ybwTg3mapdgjT4oHU1eiZvi-1ic"></script>
+
+<link href="styles/style.css" media="all" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="styles/smoothslides.theme.css">
+
+<link rel=apple-touch-icon-precomposed sizes=144x144 href="assets/im-favicon.png">
+<link rel=apple-touch-icon-precomposed sizes=114x114 href="assets/im-favicon.png">
+<link rel=apple-touch-icon-precomposed sizes=72x72 href="assets/im-favicon.png">
+<link rel=apple-touch-icon-precomposed href="assets/im-favicon.png">
+<link rel="shortcut icon" href="assets/im-favicon.png">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Yanone+Kaffeesatz:200,400,700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <div id="home">
+    	<div id="top_bar_w">
+            <div id="top_bar_i">
+              <ul class="top_menu">
+                <li><a href="#" data-offset="0"><h1>Info Meetup</h1></a></li>
+                <li><a href="#about-section" data-offset="70">About Meet</a></li>
+                 <li><a href="#events-section" data-offset="100">Events</a></li>
+                <li><a href="#join-section" data-offset="100">Join Now</a></li>
+                <li><a href="#contact-section" data-offset="160">Contact Us</a></li>
+                <li><a href="#map-canvas" data-offset="160">Map Locaion</a></li>
+              </ul>
+            </div>
+            <div id="top_bar_mobi">
+            <span class="menu-logo"><a href="" data-offset="0"></a></span>
+            <span class="logo"><h1>Info Meetup</h1></span>
+              <div class="clear"></div>
+            </div>
+      	</div><!--top-bar-w-->
+        <div class="mobile-menu">
+            <span class="menu-close"><img src="assets/close.png" /></span>
+              <ul class="top_menu">
+             <li><a href="#about-section" data-offset="70">About Meet</a></li>
+             <li><a href="#events-section" data-offset="100">Events</a></li>
+            <li><a href="#join-section" data-offset="100">Join Now</a></li>
+            <li><a href="#contact-section" data-offset="160">Contact Us</a></li>
+            <li><a href="#map-canvas" data-offset="160">Map Locaion</a></li>
+              </ul>
+         </div>
+        <div class="shade-bg">&nbsp;</div>
+        <div class="demo-centering">
+            <!-- markup for slideshow -->
+                <div class="ss-slides">
+                    <div class="ss-slide">
+                        <img src="assets/slider/slider01.jpg"/>
+                    </div>
+                    <div class="ss-slide" title="macro.">
+                        <img src="assets/slider/slider02.jpg" />
+                    </div>
+                    <div class="ss-slide" title="Who brought smores?">
+                        <img src="assets/slider/slider03.jpg" />
+                    </div>
+                    <div class="ss-slide" title="">
+                        <img src="assets/slider/slider04.jpg" />
+                    </div>
+                    <div class="ss-slide" title="Waves">
+                        <img src="assets/slider/slider05.jpg" />
+                    </div>
+        		</div>
+    	</div>
+        <div class="about-section" id="about-section">
+        <h3 class="about-title" id="contact">About Meet</h3>
+        <p>Startup Grind is a global startup community designed to educate, inspire, and connect entrepreneurs. It is powered by Google for Entrepreneurs.We host monthly events in more than 60 cities and 20 countries featuring successful local founders, innovators, educators and investors who share personal stories and lessons learned on the road to building great companies.<br><br>
+
+Our monthly fireside chat interviews and annual conferences provide opportunities to connect with amazing startups and the people behind them, tap into a strong support network, form meaningful connections and gain inspiration for the startup journey ahead.<br><br>
+
+We aim to build a connected network of vibrant startup communities to help fuel innovation, economic growth and prosperity at the local level.<br><br>
+
+We believe in making friends, not contacts. We believe in giving, not taking. We believe in helping others before helping yourself. We are truly passionate about helping founders,entrepreneurs and startups succeed. We intend to make their startup journey less lonely, more connected and more memorable.</p>
+        </div>
+        <div class="events-section" id="events-section">
+        <h3 class="about-title" id="contact">Events</h3>
+        <p> - Activity/Group Project</p>
+		<p> - Class/Workshop</p>
+        <p> - Presentations</p>
+		<p> - Show and Tell</p>
+        <p> - Interview</p>
+		<p> - Happy Hour/ Social / Meet and Greet</p>
+        <p> - Walk around the town</p>
+        </div>
+        <div class="join-section" id="join-section">
+         <h3 class="join-title" id="contact">Join Now</h3>
+         <p>You simply just have to choose the shift you want in our system. You are going to provide us with few personal details as well as professional background and skills but do not worry, we only want to know how we can use your awesome skills to arrange the best edition of MD festival ever!!</p>
+         <p>So tell us a bit about yourself filling up the form below:</p>
+        	<form class="pure-form" method="post" id="contact" action="">
+                <div class="name-form pure-form-r1">
+                    <div class="first-name-section">
+                        <input type="text" name="Name" value="" placeholder="First Name"  class="input-name label" id="contact-name">
+                        <span class="error">This field is required</span>
+                    </div>  
+                    <div class="last-name-section">  
+                        <input type="text" name="LastName" value="" placeholder="Last Name" class="input-name label" id="contact-lastname">
+                        <span class="error">This field is required</span>
+                    </div> 
+                </div> 
+                <div class="pure-form-r2"> 
+                    <div class="email-form">
+                        <input type="text" name="Email" value=""  placeholder="Your Email" class="input-email label" id="contact-email">
+                        <span class="error">A valid email address is required</span>	
+                    </div> 
+                  <div class="radio-button">
+                    <label class="radio-button-label">Gender:</label>
+                    <label class="radiobutton1">
+                    <input type="radio" name="gender" value="Female" id="r1">
+                    <span for="r1">Female</span>
+                    </label>
+                    <label class="radiobutton2">
+                    <input type="radio" name="gender" value="Male" checked="checked" id="r2">
+                    <span for="r2">Male</span>
+                    </label>
+                  </div>
+              </div>
+              <div class="pure-form-r3"> 
+              		<div class="form-language-section">
+                      <div class="form-language">
+                      <label class="form-language-title">Languages:</label> 
+                        <div class="form-language-label"><input type="checkbox" name="language" value="English" id="ch1" checked="checked"/><label for="ch1">English</label></div>   
+                        <div class="form-language-label"><input type="checkbox" name="language" value="French" id="ch2"/><label for="ch2">French</label></div> 
+                        <div class="form-language-label"><input type="checkbox" name="language" value="Hindi" id="ch3"/><label for="ch3">Hindi</label></div>   
+                        <div class="form-language-label"><input type="checkbox" name="language" value="Malayalam" id="ch4"/><label for="ch4">Malayalam</label></div> 
+                        <div class="form-language-label"><input type="checkbox" name="language" value="Tamil" id="ch5"/><label for="ch5">Tamil</label></div>
+                       </div> 
+                   </div>
+                   <div class="your-message-section"> 
+                      <div class="your-message"><textarea name="contactmessage" placeholder="Your messsage" class="form-area" id="contact-message"></textarea>
+                      <span class="error">This field is required</span>
+                        <button type="submit" class="form-button" id="contact-submit">Join Now</button>
+                      </div> 
+                  </div> 
+              </div>  
+           </form>
+        </div>
+        <div class="video-section" id="video-section">
+              <div class="video-container">
+    <iframe title="YouTube video player" class="youtube-player" type="text/html" width="560" height="315" src="https://www.youtube.com/embed/K7agjXFFQJU" frameborder="0" allowfullscreen></iframe>
+              </div>
+          </div>
+          <div id="contact-section" class="contact-section">
+          	 <div class="contact-us-container">
+                  <h3 class="contact-title">Contact Us</h3>
+                 <div class="contact-form">
+                     <span class="contact-form-1"><span class="name-icon"></span><h3>Riju Vargheese</h3></span>
+                     <span class="contact-form-1"><span class="phone-icon"></span><a href="tel:+918056959233">+91-8056959233</a></span>
+                     <span class="contact-form-1"><span class="mail-icon"></span><a href="mailto:rijuvargheese06@gmail.com">Send mail</a></span>
+                  </div>
+                  <div class="social_icons">
+                    <span class="find_me_label">Find Us:</span>
+                    <a href="https://www.facebook.com/riju.vargheese" rel="nofollow"><img src="assets/icon-facebook.png" alt=""/></a>
+                    <a href="https://www.linkedin.com/pub/riju-vargheese/43/917/404" rel="nofollow"><img src="assets/icon-linkedin.png" alt=""/></a>
+                    <a href="https://twitter.com/rijuvargheese06" rel="nofollow"><img src="assets/icon-twitter.png" alt=""/></a>
+                    <a href="https://plus.google.com/u/0/+RijuV12345/posts" rel="nofollow"><img src="assets/icon-google.png" alt=""/></a>
+                  </div>
+          	</div>
+          </div>
+          <div id=map-canvas></div>
+          <div id="footer">Copyright @ 2015 Riju Vargheese. </div>
+    </div>   
+</body>
+</html>
+<script type="text/javascript">
+		
+
+</script>
