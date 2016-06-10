@@ -89,7 +89,7 @@ textarea:-ms-input-placeholder { /* Internet Explorer 10-11 */color: #000;}
 .join-section .pure-form .pure-form-r3 .form-language-section {display: block;margin: 0px 0px 30px 0px;}
 .join-section .pure-form .pure-form-r3 .form-language{ margin: 0 auto;}
 .join-section .pure-form .pure-form-r3 .your-message {display:block;}
-.join-section .pure-form .pure-form-r1 .first-name-section{ display:block;}
+.join-section .pure-form .pure-form-r1 .first-name-section{ display:block;margin: 0px 0px 30px 0px;}
 .join-section .pure-form .pure-form-r1 .last-name-section{ display:block;}
 }
 /*Slider*/
